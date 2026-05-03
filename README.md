@@ -23,9 +23,14 @@ A modern, sleek, and highly optimized UI for your FiveM server. Designed with a 
 
 ## 📸 Showcase
 
-* **Idle (On Foot):** `(https://i.imgur.com/l8c3JYU.jpeg)`
-* **Vehicle HUD:** `[<img width="372" height="199" alt="Discord_Z5XhhPi387" src="https://github.com/user-attachments/assets/0dff0932-31c9-45b5-9ee7-c628625aaad7" />](https://i.imgur.com/pik8ieb.png)`
-* **Resmon (Performance):** `(https://i.imgur.com/nomU6Ha.png)`
+* **Idle (On Foot):**
+![Idle On Foot](https://i.imgur.com/l8c3JYU.jpeg)
+
+* **Vehicle HUD:**
+![Vehicle HUD](https://i.imgur.com/pik8ieb.png)
+
+* **Resmon (Performance):**
+![Resmon Performance](https://i.imgur.com/nomU6Ha.png)
 
 ---
 
