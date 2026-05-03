@@ -1,0 +1,1 @@
+-- Ovde idu serverske funkcije, provere novca itd.

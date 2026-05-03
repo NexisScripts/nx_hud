@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nx_hud v2.2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="ui-container">
+        
+        <!-- INFO HUD (Top Right) -->
+        <div id="info-hud-container">
+            <div class="info-item id"><i class="fa-solid fa-id-card"></i> <span id="player-id">0</span></div>
+            <div class="info-item job"><i class="fa-solid fa-briefcase"></i> <span id="player-job">Unemployed</span></div>
+            <div class="info-item cash"><i class="fa-solid fa-wallet"></i> $<span id="player-cash">0</span></div>
+            <div class="info-item bank"><i class="fa-solid fa-building-columns"></i> $<span id="player-bank">0</span></div>
+        </div>
+
+        <!-- CAR HUD -->
+        <div id="car-hud-container">
+            <div class="speed-container">
+                <svg class="rpm-ring" viewBox="0 0 120 120">
+                    <circle class="rpm-bg" cx="60" cy="60" r="54"></circle>
+                    <circle class="rpm-fill" cx="60" cy="60" r="54" id="rpm-bar"></circle>
+                </svg>
+                <div class="speed-text">
+                    <div id="speed-val">0</div>
+                    <div class="unit">KM/H</div>
+                </div>
+            </div>
+
+            <div class="car-status">
+                <div class="gear">G: <span id="gear-val">N</span></div>
+                <div class="icons">
+                    <i class="fa-solid fa-gauge-high" id="engine-icon"></i>
+                    <i class="fa-solid fa-user-slash" id="belt-icon"></i>
+                </div>
+                
+                <div class="fuel-item">
+                    <i class="fa-solid fa-gas-pump"></i>
+                    <div class="bar-bg-auto"><div class="fuel-fill" id="fuel-bar"></div></div>
+                </div>
+
+                <div class="engine-item">
+                    <i class="fa-solid fa-wrench"></i>
+                    <div class="bar-bg-auto"><div class="engine-fill" id="engine-health-bar"></div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- STATUS BARS (Bottom Center) -->
+        <div class="status-bars">
+            <div class="status-item health">
+                <i class="fa-solid fa-heart"></i>
+                <div class="bar-bg"><div class="bar-fill" id="health-bar"></div></div>
+            </div>
+            <div class="status-item armor">
+                <i class="fa-solid fa-shield"></i>
+                <div class="bar-bg"><div class="bar-fill" id="armor-bar"></div></div>
+            </div>
+            <div class="status-item hunger">
+                <i class="fa-solid fa-burger"></i>
+                <div class="bar-bg"><div class="bar-fill" id="hunger-bar"></div></div>
+            </div>
+            <div class="status-item thirst">
+                <i class="fa-solid fa-droplet"></i>
+                <div class="bar-bg"><div class="bar-fill" id="thirst-bar"></div></div>
+            </div>
+            <div class="status-item stamina">
+                <i class="fa-solid fa-bolt"></i>
+                <div class="bar-bg"><div class="bar-fill" id="stamina-bar"></div></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
