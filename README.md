@@ -5,7 +5,7 @@
 ![Performance](https://img.shields.io/badge/performance-0.00ms-brightgreen.svg)
 ![License](https://img.shields.io/badge/license-MIT-orange.svg)
 
-A modern, sleek, and highly optimized UI for your FiveM server. Designed with a clean "Glassmorphism" aesthetic, **nx_hud** operates at peak performance (~0.00ms idle) using an event-driven architecture instead of heavy client loops.
+A modern, sleek, and highly optimized UI for your FiveM server. Designed with a clean "Glassmorphism" aesthetic, **nx_hud** operates at peak performance (~0.02ms idle) using an event-driven architecture instead of heavy client loops.
 
 ## ✨ Key Features
 
